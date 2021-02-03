@@ -1,0 +1,77 @@
+.shape-w-h-sec{
+  margin: 0;
+  display: flex;
+}
+.shape-w-h-sec .shape-w-h{
+margin: 0;
+width: 100px;
+}
+.shape-w-h-sec .link-icon{
+margin: 0 6px;
+padding: 52px 0 0 0;
+}
+.shape-w-h-sec .link-icon span{
+cursor: pointer;
+}
+
+.shape-fill{
+position: relative;
+}
+.shape-fill .color-piker{
+position: absolute;
+width: 36px;
+height: 36px;
+top: 0;
+right: 0;
+background: #323436;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.shape-fill .color-piker-btn{
+width: 30px;
+height: 30px;
+display: inline-block;
+}
+.shape-fill .ui-color-picker{
+width:250px;
+position: absolute;
+top: 32px;
+right: 0;
+z-index: 9;
+padding-top: 10px;
+padding-right: 5px;
+}
+.ui-color-picker .gradient-controls .gradient-degrees-options .gradient-degree-value p {
+color: black;
+}
+.gradient-type-item:hover.gradient-type-item:nth-child(1)::before{
+content: "Linear";
+background: #000;
+position: absolute;
+top: 35px;
+left: -10px;
+z-index: 9;
+width: 28px;
+padding: 3px 10px;
+font-size: 11px;
+border-radius: 10px;
+text-align: center;
+} 
+.gradient-type-item:hover.gradient-type-item:nth-child(2)::before{
+content: "Radial";
+background: #000;
+position: absolute;
+top: 35px;
+left: -10px;
+z-index: 9;
+width: 28px;
+padding: 3px 10px;
+font-size: 11px;
+border-radius: 10px;
+text-align: center;
+} 
+.position{
+margin-right: 10px;
+width: 134px;
+}
